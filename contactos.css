@@ -1,0 +1,71 @@
+*{
+padding: 0px;
+margin: 0px;
+/* descargar ralyway */
+}
+
+/* img background */
+body{
+ background-size:cover ;
+   
+}
+
+/* contenedor */
+.container{
+    width: 1000px;
+    margin: 30px 0px 10px 450px;
+     height: 100vh;
+}
+
+form{
+    display: flex;
+     flex-flow: column;
+      background-color: white;
+       width: 40%;
+        height: 80%;
+         padding: 20px;
+          align-items: center;
+           box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 50px;
+            border-radius: 10px;
+
+}
+/* cuadros de texto */
+input, textarea{
+    border: none;
+     resize: none;
+      outline: none;
+       padding: 15px 0px;
+        width: 80%;
+         margin: 20px;
+          transition: all 300ms;
+           border-bottom: 1px solid rgba(0, 0, 0, 0.2);         
+}
+
+input :focus, textarea :focus{
+    /* NO FUNCIONA */
+    border-bottom-color: #ffff00;
+}
+
+button{
+    border: none;
+     outline: none;
+      background-color: blue; 
+       padding: 15px;
+        width: 150px;
+         color: white;
+          border-radius: 2px;
+           box-shadow: rgba(0, 0, 0, alpha) 0px 0px 10px;
+            margin: 10px 0px;
+             cursor: pointer;
+              transition: all 300ms;
+}
+
+    /* NO FUNCIONA */
+    button :hover{
+     transform: scale(1.5);
+      box-shadow: rgba(0, 0, 0, alpha) 0px 0px 10px;
+
+    
+
+    
+}
