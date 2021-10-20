@@ -58,13 +58,15 @@ body{
    /* hacer pocition fixed */
   }
 
-   nav a{
+   nav li a{
      text-decoration: none;
    }
     
     nav a:hover{
       color: blue;
+      margin-right: 50px;
     }
+    
 
   /* contenido */
   #contenido {
@@ -185,3 +187,7 @@ body{
       footer img:hover{
        transform: scale(1.05);
       }
+
+        footer h4{
+          text-align: center;
+        }
