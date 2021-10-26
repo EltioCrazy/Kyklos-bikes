@@ -1,11 +1,11 @@
-/* home and menu css */
+/* menu.css */
 
 *{
     margin: 0px;
      padding: 0px;
  }
 
- /* img background */
+ /*img background  */
 body{
  background-size:cover ;
   }
@@ -43,7 +43,7 @@ body{
         line-height: 10px ;
       }
 
-        /* logo hover */
+        /*  logo hover */
         header img:hover{
           transform: scale(1.15);
         }
@@ -62,16 +62,15 @@ body{
 
     /* link paginas */
     #bloquemenu a{
-      text-decoration: none;
-      margin-left: 100px;
-      margin-right: 1%;
-    }
+        text-decoration: none;
+        margin-right: 5%;
+   }
     
-    /* efecto color */
     #bloquemenu a:hover{
       color: blue;
     }
     
+
   /* contenido */
   #contenido {
    width: 84%;
@@ -82,57 +81,50 @@ body{
    margin-left: 1%;
    margin-bottom: 5%;
   }
-    /* paragraph */    
-    #contenido p {
-     font-size: 35px;
-     text-align: left;
-     line-height: 43px;
-     color: white;
-     margin: 1%;}
 
   /* inicio bikes */
   #iniciobike{
    background-color: #f7d547;
-   height: 425px;
+   height: 405px;
+   margin-top: 5%;
   }
 
     /* img scale */
     #iniciobike img:hover{
      transform: scale(1.05);
     }
-    
-      /* tite cambio color */
-      div h1:hover{
-        color: blue;
-      }
 
-      /* title center */
-      div h1{
-       text-align: center;    
-      }
-
-        /* box float left */
-        #boxone, #boxtwo, #boxthree{
-          float: left;
+        /* title center*/
+        div h1{
+            text-align: center;    
         }
+
+            /* box float left */
+            #boxone, #boxtwo, #boxthree{
+                float: left;
+            }
 
   /* inicio piezas */
   #iniciopiezas{
    background-color: #f7d547;
-   height: 425px;
+   height: 405px;
    margin-top: 5%;
   }
 
-      /* img scale */
-      #iniciopiezas img:hover{
-       transform: scale(1.05);
-       color: blue;
-      }
+    /* img scale */
+    #iniciopiezas img:hover{
+        transform: scale(1.05);
+    }
 
-        /* box float left */
-        #boxpone, #boxptwo, #boxpthree{
-          float: left;
+        /* h1:hover titulo de <box> */
+        h1:hover{
+            color: blue;
         }
+
+            /* box float left */
+            #boxpone, #boxptwo, #boxpthree{
+                float: left;
+            }
         
   /* publicidad */
   aside {
@@ -171,12 +163,12 @@ body{
      margin: 1%;
      }
 
-      /* logos scale */
-      footer img:hover{
-       transform: scale(1.05);
-      }
-
-        /* correo center */
-        footer h4{
-          text-align: center;
+        /* logos scale */
+        footer img:hover{
+            transform: scale(1.05);
         }
+
+            /* correo center */
+            footer h4{
+                text-align: center;
+            }

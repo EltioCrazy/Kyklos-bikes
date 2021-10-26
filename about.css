@@ -1,0 +1,164 @@
+/* about.css */
+
+*{
+    margin: 0px;
+     padding: 0px;
+ }
+
+ /* img background */
+body{
+ background-size:cover ;
+}
+
+  /* contenedor */
+  #contenedor {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 1px;
+   }
+ 
+     /* links */
+     #contenedor a{
+       text-decoration: none;
+       color: black;
+     }
+ 
+     /* header */
+     header{
+      width: 15%;
+      height: 80px;
+      background:rgb(218, 165, 32); 
+      float: left;
+      position:-webkit-sticky;
+      position: sticky;
+      top: 0px;
+     }  
+ 
+       /* logo */
+       header img {
+         width: 100px;
+         float: left;                
+         font: size 10px;
+         text-align: left;
+         line-height: 10px ;
+       }
+ 
+         /* logo hover */
+         header img:hover{
+           transform: scale(1.15);
+         }
+ 
+   /* bloque menu */
+   #bloquemenu {
+    background: rgb(218, 165, 32);
+    width: 85%;
+    height: 80px;
+    margin-left: 15%;
+    position:-webkit-sticky;
+    position: sticky;
+    top: 0px;
+    text-align: right;
+   }
+ 
+     /* link paginas */
+     #bloquemenu a{
+       text-decoration: none;
+       margin-left: 100px;
+       margin-right: 1%;
+     }
+     
+ 
+     #bloquemenu a:hover{
+       color: blue;
+     }
+     
+   /* contenido */
+   #contenido {
+    width: 84%;
+    height: 100%;
+    float: left;
+    background: rgba(255, 255, 255, 0);
+    margin-top: 1px;
+    margin-left: 1%;
+    margin-bottom: 5%;
+   }
+ 
+   /* inicio bikes */
+  #Kyklos{
+    background-color: #f7d547;
+    width: 40%;
+    height: 425px;
+    margin-top: 1%;
+    float: left;
+  }
+
+    /* img scale */
+    #Kyklos img:hover{
+        transform: scale(1.05);
+       }
+
+        /* box float left */
+        #boxone, #boxtwo, #boxthree{
+        float: left;
+        }
+
+    /* inicio piezas */
+  #Team{
+    background-color: #f7d547;
+    width: 40%;
+    height: 425px;
+    margin-top: 1%;
+    float: right;
+   }
+
+    /* box float left */
+    #boxpone, #boxptwo, #boxpthree{
+        float: left;
+    }
+
+    /* publicidad */
+  aside {
+    width: 14%;
+    height: 560px;
+    background:#b57c00;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    float: right;
+    position:-webkit-sticky;
+    position: sticky;
+    top: 81px;
+    
+   }
+              
+     /* texto de publicidad */
+     aside h2 {
+      font-size: 30px;
+      text-align: left;
+      line-height: 400px;
+      margin-left: 1%;  
+     }
+ 
+   /* contactos */
+   footer {
+    background-color: rgba(255, 217, 0, 0.719);
+    clear: both;
+    margin-left: 1px;
+    text-align: center;
+   }
+ 
+     /* logo contactos */
+     footer img{
+      width: 80px;
+      height: 80px;
+      margin: 1%;
+      }
+ 
+       /* logos scale */
+       footer img:hover{
+        transform: scale(1.05);
+       }
+ 
+         /* correo center */
+         footer h4{
+           text-align: center;
+         }

@@ -1,7 +1,9 @@
+/* contactos.ccs */
+
 *{
 padding: 0px;
 margin: 0px;
-/* descargar ralyway */
+
 }
 
 /* img background */
@@ -29,7 +31,7 @@ form{
             border-radius: 10px;
 
 }
-/* cuadros de texto */
+/* message box */
 input, textarea{
     border: none;
      resize: none;
@@ -42,25 +44,27 @@ input, textarea{
 }
 
 input :focus, textarea :focus{
-    /* NO FUNCIONA */
+    /* it does not work */
     border-bottom-color: #ffff00;
 }
 
-button{
+a{
     border: none;
-     outline: none;
-      background-color: blue; 
-       padding: 15px;
-        width: 150px;
-         color: white;
-          border-radius: 2px;
-           box-shadow: rgba(0, 0, 0, alpha) 0px 0px 10px;
-            margin: 10px 0px;
-             cursor: pointer;
-              transition: all 300ms;
+    outline: none;
+    background-color: blue; 
+    padding: 15px;
+    width: 150px;
+    color: white;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, alpha) 0px 0px 10px;
+    margin: 10px 0px;
+    cursor: pointer;
+    transition: all 300ms;
+    text-decoration: none;
+    text-align: center;
 }
 
-    /* NO FUNCIONA */
+    /* it does not work */
     button :hover{
      transform: scale(1.5);
       box-shadow: rgba(0, 0, 0, alpha) 0px 0px 10px;
